@@ -1,4 +1,4 @@
 # kurukuru
 This is my final project website for ART 258
 
-[View Demo](https://breannlee.github.io/kurukuru)
+[View Demo](https://johndoenma.github.io/kurukuru-bl)
