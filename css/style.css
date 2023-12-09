@@ -84,6 +84,12 @@ p {
     max-width: 60ch;
 }
 
+.swiper-container p {
+    max-width: 60ch;
+    margin: 0 auto;
+    padding-top: 0.5em;
+}
+
 .caps {
     text-transform: uppercase;
 }
@@ -579,3 +585,29 @@ section {
 .button:active {
     top: 2px;
 }
+.swiper-container {
+		width:100%;
+		height: auto;
+	}
+
+.swiper-container .next {
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		right:20px;
+		z-index:3;
+			cursor:pointer;
+	}
+ .swiper-container .prev {
+		position: absolute;
+		top:50%;
+		transform: translateY(-50%);
+		left:20px;
+		z-index:3;
+		cursor:pointer;
+	}
+	.bgimage {
+		background-size:cover;
+		background-position:center center;
+		background-repeat:no-repeat;
+	}

@@ -7,6 +7,9 @@
         <title>Simple Base</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://use.typekit.net/xjs8wwg.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
     </head>
 
     <body>
@@ -35,12 +38,66 @@
                     </div>
                 </div>
             </section>
-            
+
 
             <!-- <section class="menu-items">
                 <div class="container">
             </section> -->
-            <section class="menu-item-img">
+            <section>
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide bgimage">
+                            <div class="container">
+                                <img src="img/cali-roll.PNG">
+                                <h2>California Roll</h2>
+                                <p>$5.75</p>
+                                <p>6 pieces. A maki-style sushi roll with cucumber, avocado, and crab meat rolled
+                                    together.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bgimage">
+                            <div class="container">
+                                <div class="about-img">
+                                    <img src="img/ebi-roll.PNG">
+                                    <h2>Ebi Roll</h2>
+                                    <p>Price</p>
+                                    <p>TBA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bgimage">
+                            <div class="container">
+                                <div class="about-img">
+                                    <img src="img/ahi-maki.PNG">
+                                    <h2>Ahi Maki Roll</h2>
+                                    <p>Price</p>
+                                    <p>TBA</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bgimage">
+                            <div class="container">
+                                <div class="about-img">
+                                    <img src="img/bowl.PNG">
+                                    <h2>Poke bowl</h2>
+                                    <p>Price</p>
+                                    <p>TBA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div id="swiper-button-next-modal" class="swiper-button-next"></div>
+                    <div id="swiper-button-prev-modal" class="swiper-button-prev"></div>
+
+                </div>
+            </section>
+            <!-- <section class="menu-item-img">
                 <div class="container">
                     <div class="about-img">
                         <img src="img/cali-roll.PNG">
@@ -49,7 +106,7 @@
                         <p>6 pieces. A maki-style sushi roll with cucumber, avocado, and crab meat rolled together.</p>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
         </main>
 
@@ -85,6 +142,8 @@
                 </div>
             </div>
         </footer>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js'></script>
+        <script src="js/script.js"></script>
     </body>
 
 </html>
